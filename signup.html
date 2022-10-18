@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Meta tag for width control-->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0>
+ <meta charset="UTF-8">
+ <title>Turito</title>
+ <meta charset="UTF-8">
+ <link rel="icon" type="image/x-icon" href="./images/logo.png">
+
+</head>
+<body style="background-color: lightgreen;">
+<section>
+	<section>
+		<div>
+			<img src="./images/brandimage.png">
+		</div>
+	</section><br><br><br><br><br><br>
+    <section>
+		<div id ="Contact">
+			<div styles="padding-left: 50px;">
+				<h2 styles="font-size: 25; font-weight: bold">SignUp Here</h2>
+	
+				<form method="get" action="https://www.randyconnolly.com/tests/process.php">
+					<div class="formDiv">
+						  <label for="fname">First name:</label><br>
+						  <input type="text" style="height: 30px;" id="fname" name="first name" placeholder="first name" required><br><br>
+					</div>
+					<div class="formDiv">
+						<label for="lname">Last name:</label><br>
+						<input type="text" style="height: 30px;" id="lname" name="last name" placeholder="last name"><br><br>
+					 </div>
+					<div class="formDiv">
+						<label for="email">E-Mail:</label><br>
+						<input type="email" style="height: 30px;" id="email" name="email" placeholder="email" required><br><br>
+					</div>
+					<div class="formDiv">
+						<label for="phone">Phone:</label><br>
+						<input type="tel" style="height: 30px;" id="phone" name="phone" placeholder="mobile number" min="10" max="10" required><br><br>
+					</div>
+					<div style="height: 30px;">
+						<label for="male">Male</label>
+						<input type="radio" name="gender" id="male">
+					</div>
+					<div style="height: 30px;">
+						<label for="female">Female</label>
+						<input type="radio" name="gender" id="female">
+					</div>
+					<div style="height: 30px;">
+						<input type="checkbox" name="Accept" id="terms" required>
+						<label for="terms">Accept all the Terms and conditions</label>
+					</div>
+					<div style="height: 30px;">
+						<label for="courses">Choose a course:</label>
+						<select id="course" name="courses">
+						  <option value="Math">Math</option>
+						  <option value="Robotics">Robotics</option>
+						  <option value="Coding">Coding</option>
+						  <option value="Artificial Intelligence">Artifical Intelligence</option>
+						</select>
+					</div>
+					<div class="formDiv" style="height: 30px;">
+						<input type="submit" name="Submit">
+					</div style="height: 30px;">
+					<button type="reset" styles="padding: 10px">Reset</button>
+					<a href="index.html">Back to Home</a>
+				</form>
+			</div>
+		</div>
+	</section>
+</section>
+</body>

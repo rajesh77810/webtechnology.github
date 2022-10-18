@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Meta tag for width control-->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0>
+ <meta charset ="UTF-8">
+ <title>Turito</title>
+ <link rel="icon" type="image/x-icon" href="./images/logo.png">
+ 
+ <!--styles-->
+	<style>
+		body{
+			background-image: url('./images/contact.jpg');
+			background-size:cover;
+			background-attachment:fixed;
+			background-repeat:no-repeat;
+			background-position: center;
+		}
+		
+		a{
+			text-decoration: none;
+			background-color: blue;
+			color: white;
+			text-align: center;
+			padding: 10px 20px;
+			display: inline-block;
+			border-radius: 10px;
+			margin-right: 15px;	
+			margin-top:20px;
+			margin-bottom:18px;
+		}
+		a:hover{
+			background-color: #000066;
+		}
+		h1{
+			padding: 50px 0 0 30px;
+			color: white;
+		}
+		p{
+			color: white;
+		}
+		#nav{
+			background-color: #f2bef7;
+		}
+		.button{
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 15px 30px;
+			text-align: center;
+			font-size: 16px;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		.split {
+  height:100%;
+  position: fixed;
+  top: 80px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  width: 20%;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  width: 80%;
+  background-color: lightgreen;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+	</style>
+</head>
+<body>
+<section>
+	<section>
+	<div id="nav">
+			<img align="left" src="./images/brandimage.png">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="classes.html">Classes</a>
+			<a href="contact.html">Contact</a>
+			<a href="signup.html">SignUp</a>
+	</div>
+	</section>
+	<section>
+	<div class="split left">
+  <div class="centered">
+    <img src="./images/online.png">
+    <h2 style="color:white">Contact Us</h2>
+    <p>For any further information and queries contact us.</p>
+  </div>
+</div>
+
+<div class="split right">
+	<button>phone</button>
+  </div>
+</section>
+</section>
+
+</body>
+
+</html>

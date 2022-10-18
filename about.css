@@ -1,0 +1,71 @@
+a{
+		text-decoration: none;
+		background-color: blue;
+		color: white;
+		text-align: center;
+		padding: 10px 20px;
+		display: inline-block;
+		border-radius: 10px;
+		margin-right: 15px;	
+		margin-top:20px;
+		margin-bottom:18px;
+	}
+	a:hover{
+		background-color: #000066;
+	}
+	#nav{
+		background-color: #f2bef7;
+	}
+	.note{
+		padding: 40px 0 50px 35px;
+		width: 95%;
+		height: 60%
+	}
+	.note2{
+		padding: 50px 80px 50px 80px;
+		height: 110px;
+		width: 800px;
+		background-color: #f0ceef;
+		background-attachment: fixed;
+		margin-left:150px;
+		margin-right:150px;
+		margin-top:50px;
+		margin-bottom:50px;
+		overflow: auto;
+	}
+	.note3{
+		padding: 50px 80px 50px 80px;
+		background-color: #f7fcb8;
+		height: 110px;
+		width: 800px;
+		background-attachment: fixed;
+		margin-left:150px;
+		margin-right:150px;
+		margin-top:50px;
+		margin-bottom:50px;
+		overflow: scroll;
+	}
+	.note4{
+		padding: 20px 40px 20px 40px;
+		height: 100px;
+		width: 800px;
+		background-color: #f7927c;
+		background-attachment: fixed;
+		margin-left:150px;
+		margin-right:150px;
+		margin-top:50px;
+		margin-bottom:50px;
+		overflow: visible:
+	}
+	.note5{
+		padding: 20px 40px 20px 40px;
+		height: 100px;
+		width: 800px;
+		background-color: #f7927c;
+		background-attachment: fixed;
+		margin-left:150px;
+		margin-right:150px;
+		margin-top:50px;
+		margin-bottom:50px;
+		overflow: hidden;
+	}

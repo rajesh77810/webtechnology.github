@@ -1,0 +1,38 @@
+a{
+		text-decoration: none;
+		background-color: blue;
+		color: white;
+		text-align: center;
+		padding: 10px 20px;
+		display: inline-block;
+		border-radius: 10px;
+		margin-right: 15px;	
+		margin-top:20px;
+		margin-bottom:18px;
+	}
+	a:hover{
+		background-color: #000066;
+	}
+	#nav{
+		background-color: #f2bef7;
+	}
+	.note{
+		padding: 40px 0 50px 35px;
+		width: 95%;
+		height: 60%
+	}
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	  }
+	  
+	  td, th {
+		border: 1px solid bisque;
+		text-align: center;
+		padding: 9px;
+	  }
+	  
+	  tr:nth-child(even) {
+		background-color: #dddddd;
+	  }
